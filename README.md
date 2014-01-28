@@ -27,9 +27,9 @@ The easiest place to do all this is in your app's Activity.
 SADWebView* webView;
 
 if (!webView) {
-	webView = [[SADWebView alloc]initWIthId:APPLICATION_ID]; // creating instance of SASWebview
+	webView = [[SADWebView alloc]initWithId:APPLICATION_ID]; // creating instance of SASWebview
 	webView.sadDelegate = self; // adding the delegate
-	[webView loadAd:LANGUAGE_RU andPlaceId:self.place]; // loading data with params
+	[webView loadAd:LANGUAGE_RU]; // loading data with params
 }
 
 ```
